@@ -45,8 +45,8 @@ ul {
 
 li {
     display: flex;
-    font-weight: bold;
     width: 100%;
+    font-size:15px;
 }
 
 .logo {
