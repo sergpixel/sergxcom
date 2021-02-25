@@ -73,6 +73,7 @@ li {
 #suggestions {
     margin-top: 35px;
     color: #ccc;
+    text-align:center;
 }
 
 #suggestions a {
