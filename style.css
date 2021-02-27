@@ -14,15 +14,15 @@ body{
        list-style:none;
      }
 
-.widget-list {
+#widget-list {
   padding: 0;
   list-style: none;
 }
-.widget-list a:before {
+#widget-list a:before {
   content: "\2014";
   margin-right: 14px;
 }
-.widget-list a {
+#widget-list a {
   text-decoration: none;
   outline: none;
   display: block;
@@ -32,7 +32,7 @@ body{
   color: #444;
   transition: .3s linear;
 }
-.widget-list a:hover {color: #b99d61;}
+#widget-list a:hover {color: #b99d61;}
 
      #aside{
      width: 200px;
