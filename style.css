@@ -11,10 +11,25 @@ body{
      padding: 20px;
      }
 
-     #nav{
-     background-color: #20292F;
-     padding: 5px;
-     }
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a:before {
+  content: "\2014";
+  margin-right: 14px;
+}
+.widget-list a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #444;
+  transition: .3s linear;
+}
+.widget-list a:hover {color: #b99d61;}
 
      #aside{
      width: 200px;
