@@ -1,6 +1,6 @@
 body{
      width: 900px;
-     color: #FFF;
+     /* color: #FFF; */
      margin:0 auto;
      font-family: sans-serif;
      background:#000;
@@ -9,6 +9,9 @@ body{
     #header{
      background-color: #425660;
      padding: 20px;
+     }
+     li {
+       list-style:none;
      }
 
 .widget-list {
