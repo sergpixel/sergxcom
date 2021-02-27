@@ -4,6 +4,12 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
 }
+aside {
+ background: #f0f0f0;
+ padding: 10px;
+ width: 200px;
+ float: right;
+}
 .Header {
     padding: 5px;
     font-size: 14px;
