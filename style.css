@@ -47,6 +47,7 @@ aside {
 section {
 	margin-left: 280px;
 	padding-bottom: 50px;
+	padding: 5px;
   background: #fff;
 }
 aside > h2 {
