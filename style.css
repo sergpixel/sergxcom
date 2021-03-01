@@ -3,7 +3,7 @@ body{
      /* color: #FFF; */
      margin:0 auto;
      font-family: sans-serif;
-     background:#000;
+     background:#dad7d7;
      font-size: 15px;
      }
 a {
@@ -27,7 +27,7 @@ li {
   text-decoration: none;
   outline: none;
   display: block;
-  padding: 6px 0;
+  padding: 3px 0;
   letter-spacing: 1px;
   font-weight: 300;
   color: #f9ab05;
@@ -39,7 +39,7 @@ li {
      width: 200px;
      height: 300px;
      text-align: center;
-     background-color: #63808F;
+     background-color: #0070ab;
      padding:20px 10px;
      float: left;
      }
