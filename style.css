@@ -8,6 +8,9 @@ body {
 a {
   color:#0070ab;
 }
+a:hover {
+  color:#33adff;
+}
 #header{
      background: #fff;
      padding: 5px;
