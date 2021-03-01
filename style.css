@@ -2,7 +2,7 @@ body {
   max-width: 960px;
 	margin: auto;
   font-family: sans-serif;
-  background:#dad7d7;
+  background:#f3f3f3;
   font-size: 15px;
 }
 a {
@@ -47,6 +47,7 @@ aside {
 section {
 	margin-left: 280px;
 	padding-bottom: 50px;
+  background: #fff;
 }
 aside > h2 {
 	background: #29c5e6;
