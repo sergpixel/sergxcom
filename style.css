@@ -46,57 +46,40 @@ color : #fff;
 padding : 5px;
 clear : left;
 }
-.menu {
-list-style : none;
-padding : 5px 0 5px;
-background : #9d999d;
-margin : 0;
+#nav ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
 }
-.menu li {
-display : inline-block;
+#nav li:hover ul { display: block; }
+#nav, #nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
-.menu li:after {
-content : "|";
-color : #606060;
-display : inline-block;
-vertical-align : top;
+#nav {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+  min-width: 470px;
 }
-.menu li:last-child:after {
-content : none;
+#nav li {
+  float: left;
+  position: relative;
+  height: 100%;
 }
-.menu a {
-text-decoration : none;
-font-family : 'Ubuntu Condensed', sans-serif;
-position : relative;
-font-size : 15px;
-text-transform : uppercase;
-display : inline-block;
-transition : color 0.2s;
-padding : 0 5px;
+#nav li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
-.menu a, .menu a:visited {
-color : #f0f0f0;
-}
-.menu a.current, .menu a:hover {
-color : #feb386;
-}
-.menu a:before, .menu a:after {
-content : "";
-position : absolute;
-height : 4px;
-top : auto;
-right : 50%;
-bottom : -5px;
-left : 50%;
-background : #feb386;
-transition : 0.8s;
-}
-.menu a:hover:before, .menu .current:before {
-left : 0;
-}
-.menu a:hover:after, .menu .current:after {
-right : 0;
-}
+#nav ul li { float: none; }
+#nav li:hover { background-color: #f90; }
+#nav ul li:hover { background-color: #666; }
 .headline {
     background: #f1f7fb;
     border-bottom: 1px solid #e2e2e2;
