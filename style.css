@@ -81,3 +81,17 @@ clear : left;
 #nav ul li { float: none; }
 #nav li:hover { background-color: #f90; }
 #nav ul li:hover { background-color: #666; }
+#ticker {
+  width:180px;
+}
+#ticker dt {
+  font:normal 14px Georgia;
+  background-color:#e5e5e5;
+  border-bottom:none;
+}
+#ticker dd {
+  margin-left:0;
+  border-bottom:1px solid #aaa;
+  border-left:1px solid #fff;
+}
+#ticker dd.last { border-bottom:1px solid #fff;
