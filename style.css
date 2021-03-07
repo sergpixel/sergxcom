@@ -85,3 +85,6 @@ clear : left;
     background:#eaeaea;
     padding:5px;
 }
+.vcard-details {
+    list-style: none;
+}
