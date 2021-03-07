@@ -1,6 +1,6 @@
 body {
  font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
- background: #e1dfb9; /* Цвет фона */
+ background: #f0f0f0; /* Цвет фона */
 }
 h2 {
  font-size: 1.1em; /* Размер шрифта */
@@ -10,7 +10,7 @@ h2 {
 #container {
  width: 700px; /* Ширина слоя */
  margin: 0 auto; /* Выравнивание по центру */
- background: #f0f0f0; /* Цвет фона левой колонки */
+ background: #ffe; /* Цвет фона левой колонки */
 }
 #header {
  font-size: 2.2em; /* Размер текста */
