@@ -29,6 +29,12 @@ text-align : center;
 padding : 5px;
 background : #8fa09b;
 color : #ffe;
+background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcdc));
+    background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
+    background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
+    background: -ms-linear-gradient(top, #ffffff, #dcdcdc);
+    background: -o-linear-gradient(top, #ffffff, #dcdcdc);
+    border-top: 1px solid #aaa;
 }
 #sidebar {
 width : 190px;
