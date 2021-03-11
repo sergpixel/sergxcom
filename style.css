@@ -5,7 +5,6 @@ body {
 background : #0d1117;
 }
 a, a:visited {
-    border-bottom: 1px solid #a8bfcf;
     padding-bottom: 0;
     color: #036;
 }
@@ -27,7 +26,7 @@ background : #ffe;
 }
 #header {
 padding: 16px;
-font-size: 14px;
+font-size: 18px;
 line-height: 1.5;
 color: #fff;
 background: #161b22;
@@ -42,12 +41,7 @@ margin-left : 200px;
 padding : 10px;
 background : #fff;
 }
-#footer {
-background : #8fa09b;
-color : #fff;
-padding : 5px;
-clear : left;
-}
+#footer {background: #161b22;color : #fff;padding : 5px;clear : left;}
 #nav ul {
   display: none;
   background-color: #f90;
@@ -88,4 +82,12 @@ margin-top : 10px;
 margin-left: auto;
 margin-right: auto;
 width : 440px;
+}
+.vcard {
+  list-style-type: none;
+  background:#bcddff;
+  padding:10px;
+}
+.vcard a {
+  padding: 5px;
 }
