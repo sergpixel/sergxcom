@@ -27,7 +27,6 @@ background : #ffe;
 font-size : 2.2em;
 text-align : center;
 padding : 5px;
-background : #8fa09b;
 color : #ffe;
 background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcdc));
     background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
@@ -87,11 +86,9 @@ clear : left;
 #nav ul li { float: none; }
 #nav li:hover { background-color: #f90; }
 #nav ul li:hover { background-color: #666; }
-.news {
-    background:#eaeaea;
-    padding:5px;
-}
-.vcard-details {
-    list-style: none;
-    width:100%;
+#feedControl {
+margin-top : 10px;
+margin-left: auto;
+margin-right: auto;
+width : 440px;
 }
