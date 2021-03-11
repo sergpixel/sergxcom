@@ -26,16 +26,11 @@ margin : 0 auto;
 background : #ffe;
 }
 #header {
-font-size : 2.2em;
-text-align : center;
-padding : 5px;
-color : #ffe;
-background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#dcdcdc));
-    background: -webkit-linear-gradient(top, #ffffff, #dcdcdc);
-    background: -moz-linear-gradient(top, #ffffff, #dcdcdc);
-    background: -ms-linear-gradient(top, #ffffff, #dcdcdc);
-    background: -o-linear-gradient(top, #ffffff, #dcdcdc);
-    border-top: 1px solid #aaa;
+padding: 16px;
+font-size: 14px;
+line-height: 1.5;
+color: #fff;
+background: #161b22;
 }
 #sidebar {
 width : 190px;
