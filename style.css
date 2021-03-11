@@ -6,13 +6,13 @@ background : #0d1117;
 }
 a, a:visited {
     padding-bottom: 0;
-    color: #036;
+    color: #0080ff;
 }
 a, a:visited, a:hover {
     text-decoration: none;
 }
 a:hover {
-    color:#8fa09b;
+    color:#005cbb;
 }
 h2 {
 font-size : 1.1em;
