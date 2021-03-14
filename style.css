@@ -41,12 +41,16 @@ margin-left : 200px;
 padding : 10px;
 background : #fff;
 }
-#footer {background: #161b22;color : #fff;padding : 5px;clear : left;}
+#footer {
+  background: #161b22;
+  color : #fff;
+  padding : 5px;
+  clear : left;
+}
 #nav ul {
   display: none;
-  background-color: #f90;
+  background: #f90;
   position: absolute;
-  top: 100%;
 }
 #nav li:hover ul { display: block; }
 #nav, #nav ul {
@@ -56,18 +60,15 @@ background : #fff;
 }
 #nav {
   height: 30px;
-  background-color: #666;
+  background: #333;
   padding-left: 25px;
   min-width: 470px;
 }
 #nav li {
   float: left;
-  position: relative;
-  height: 100%;
 }
 #nav li a {
-  display: block;
-  padding: 6px;
+  padding: 10px;
   width: 100px;
   color: #fff;
   text-decoration: none;
@@ -75,23 +76,23 @@ background : #fff;
   font-size:18px;
 }
 #nav ul li { float: none; }
-#nav li:hover { background-color: #f90; }
-#nav ul li:hover { background-color: #666; }
+#nav li:hover { background: #f90; }
+#nav ul li:hover { background: #666; }
 #feedControl {
 margin-top : 10px;
 margin-left: auto;
 margin-right: auto;
 width : 440px;
-background:aliceblue;
+background:#fee;
 padding:10px;
 }
 .vcard {
   list-style-type: none;
-  background:#bcddff;
   padding:10px;
 }
 .vcard a {
   padding: 5px;
+  font-size:15px;
 }
 .news-cont {
   display: flex;
