@@ -19,12 +19,12 @@ font-size : 1.1em;
 color : #800040;
 margin-top : 0;
 }
-#container {
+#container {s
 width : 900px;
 margin : 0 auto;
 background : #ffe;
 }
-#header {
+#header { 
 padding: 16px;
 font-size: 18px;
 line-height: 1.5;
