@@ -78,14 +78,7 @@ background : #fff;
 #nav ul li { float: none; }
 #nav li:hover { background: #f90; }
 #nav ul li:hover { background: #666; }
-#feedControl {
-margin-top : 10px;
-margin-left: auto;
-margin-right: auto;
-width : 440px;
-background:#fee;
-padding:10px;
-}
+#feedControl {margin-top : 10px;margin-left: auto;margin-right: auto;width : 440px;/* background:#fee; */padding:10px;}
 .vcard {
   list-style-type: none;
   padding:10px;
@@ -123,6 +116,5 @@ padding:10px;
 .news-cont .content .title
 {
   color: #333;
-  background:#bcddff;
   padding:5px;
 }
