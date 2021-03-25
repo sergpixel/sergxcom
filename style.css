@@ -107,3 +107,12 @@ background : #fff;
 * {
   box-sizing: border-box;
 }
+.dashboard-break-word {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-break: break-word;
+}
+.lh-condensed {
+  line-height: 1.25!important;
+}
