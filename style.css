@@ -14,9 +14,7 @@ body {
   color : #005cbb;
   }
   h2 {
-  font-size : 1.1em;
-  color : #800040;
-  margin-top : 0;
+  margin : 0;
   }
   #container {
   width : 700px;
