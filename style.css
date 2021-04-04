@@ -25,11 +25,17 @@ h2 {
   background: #fff;
 }
 #header {
-  padding: 16px;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #fff;
-  background: #161b22;
+  background: #0967ab !important;
+  border-color: rgba(55, 55, 55, 0.2) !important;
+  border-bottom: 1px solid transparent;
+  padding: 20px 30px 0;
+  border-radius: 8px 8px 0 0;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 66px;
+  padding-bottom: 20px;
 }
 #sidebar {
   width: 190px;
