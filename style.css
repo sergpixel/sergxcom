@@ -22,7 +22,7 @@ h2 {
 #container {
   width: 900px;
   margin: 0 auto;
-  background: #fff;
+  /* background: #fff; */
 }
 #header {
   background: #0967ab !important;
@@ -36,11 +36,13 @@ h2 {
   justify-content: space-between;
   margin-left: 66px;
   padding-bottom: 20px;
+  color: #fff;
 }
 #sidebar {
   width: 190px;
   float: left;
   padding: 5px;
+  background:
 }
 #content {
   margin-left: 200px;
