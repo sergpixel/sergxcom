@@ -17,7 +17,7 @@ body {
   margin : 0;
   }
   #container {
-  width : 700px;
+  width : 900px;
   margin : 0 auto;
   background : #fff;
   }
@@ -107,8 +107,8 @@ body {
   border-radius : 6px;
   padding : 3px;
   margin : 10px;
-  background : #666;
-  color : #fff;
+  background: #edeef0;
+  /* color : #fff; */
   }
   * {
   box-sizing : border-box;
