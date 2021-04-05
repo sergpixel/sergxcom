@@ -5,13 +5,9 @@ body {
 }
 a,
 a:visited {
+  font-size: 18px;
   padding-bottom: 0;
   color: #0080ff;
-}
-a,
-a:visited,
-a:hover {
-  text-decoration: none;
 }
 a:hover {
   color: #005cbb;
@@ -28,24 +24,17 @@ h2 {
   background: #0967ab !important;
   border-color: rgba(55, 55, 55, 0.2) !important;
   border-bottom: 1px solid transparent;
-  padding: 20px 30px 0;
+  padding: 0 10px 0;
   border-radius: 8px 8px 0 0;
+  height: 90px;
 }
 .title {
   display: flex;
   justify-content: space-between;
   margin-left: 66px;
-  padding-bottom: 20px;
   color: #fff;
 }
-#sidebar {
-  width: 190px;
-  float: left;
-  padding: 5px;
-  background:
-}
 #content {
-  margin-left: 200px;
   padding: 10px;
   background: #fff;
 }
@@ -85,7 +74,7 @@ h2 {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
 }
 #nav ul li {
   float: none;
@@ -117,7 +106,6 @@ h2 {
 .box {
   border: rgb(78, 78, 78) solid 1px;
   border-radius: 6px;
-  padding: 5px;
   margin: 10px;
   background: #edeef0;
   /* color : #fff; */
@@ -128,14 +116,17 @@ h2 {
 .dashboard-break-word {
   hyphens: auto;
   word-break: break-word;
+  padding: 5px;
 }
 .f4 {
-  font-weight: 600 !important ;
-  font-size: 15px;
+  background:#0967ab;
+  color: #ffff;
+  padding: 5px;
+  font-size: 12px;
 }
 .date {
-  font-size: 10px;
-  padding: 10px;
+  font-size: 12px;
+  padding: 3px;
 }
 p {
   margin: 0;
