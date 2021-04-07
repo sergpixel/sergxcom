@@ -3,11 +3,10 @@ body {
   line-height: 1.5;
   background: #0d1117;
 }
-a,
-a:visited {
-  font-size: 18px;
+a,a:visited {
   padding-bottom: 0;
   color: #0080ff;
+  text-decoration:none;
 }
 a:hover {
   color: #005cbb;
@@ -98,7 +97,6 @@ h2 {
 }
 .vcard a {
   padding: 5px;
-  font-size: 15px;
 }
 .p-3 {
   padding: 16px !important ;
